@@ -1,7 +1,7 @@
 scssの構成について考える
 ====
 
-##構成
+## 構成
 
 ```
 root/  
@@ -24,25 +24,34 @@ root/
 　└ README.md  
 ```  
 
-###base/  
-要素の基本的な設定
-##config/  
-定義たち
-##tools/  
-mixinたち
-##custom/components  
-汎用性のあるスタイル（パーツ単位）
-接頭辞は'c-'
-##custom/utilities  
-汎用性のあるスタイル（要素単位）
-接頭辞は'u-'
-##layout/  
-レイアウト関連
-##partials/
+### base/  
+要素の基本的な設定  
+
+## config/  
+定義たち  
+
+## tools/  
+mixinたち  
+
+## custom/components  
+汎用性のあるスタイル（パーツ単位）  
+接頭辞は'c-'  
+
+## custom/utilities  
+汎用性のあるスタイル（要素単位）  
+接頭辞は'u-'  
+
+## layout/  
+レイアウト関連  
+
+## partials/
 セクションごとのスタイル  
-##vendor/  
+
+## vendor/  
 プラグインのスタイル  
-##override/  
-プラグインのスタイルを上書きするところ
-##style.scss
-ここに必要なもの書いてコンパイルする
+
+## override/  
+プラグインのスタイルを上書きするところ  
+
+## style.scss
+ここに必要なもの書いてコンパイルする  
